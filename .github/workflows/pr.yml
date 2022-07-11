@@ -1,0 +1,14 @@
+name: Run on PR
+
+on: push
+
+jobs:
+   testing_pr:
+     runs-on: ubuntu-latest
+    # environment: Test
+     steps:
+       # - name: Test
+        #  run: echo ${{ secrets. Test}}
+       # - name: Testing
+        #  run: echo "Testing ${{ secrets.Testing}}"
+        - run: echo test
